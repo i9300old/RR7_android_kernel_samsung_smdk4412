@@ -18,7 +18,8 @@ obj-$(CONFIG_FB_S5P_NT35560)	+= nt35560.o
 ifeq ($(CONFIG_MACH_KONA),y)
 obj-$(CONFIG_FB_S5P_MDNIE)      += s3cfb_mdnie_kona.o s3cfb_ielcd_kona.o mdnie_kona.o mdnie_tuning_kona.o
 else
-obj-$(CONFIG_FB_S5P_MDNIE)      += s3cfb_mdnie.o s3cfb_ielcd.o mdnie.o mdnie_tunning.o
+<<<<<<< HEAD
+obj-$(CONFIG_FB_S5P_MDNIE)      += s3cfb_mdnie.o s3cfb_ielcd.o mdnie.o mdnie_tunning.o mdnie_preset.o
 obj-$(CONFIG_FB_MDNIE_RGB_ADJUST) += mdnie_rgb_adj.o
 endif
 obj-$(CONFIG_FB_S5P_LMS501KF03)	+= s3cfb_lms501kf03.o
