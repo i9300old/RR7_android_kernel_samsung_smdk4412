@@ -1498,8 +1498,6 @@ void task_dirty_inc(struct task_struct *tsk);
 #define VM_MAX_READAHEAD    256 /* kbytes */
 #define VM_MIN_READAHEAD     16 /* kbytes (includes current page) */
 
->>>>>>> 1d8a5dd0564... added filesystem dynamic read-ahead (Credits to Chad
-
 int force_page_cache_readahead(struct address_space *mapping, struct file *filp,
 			pgoff_t offset, unsigned long nr_to_read);
 
